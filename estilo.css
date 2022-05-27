@@ -1,0 +1,165 @@
+.robot {
+    border: 2px solid black;
+    height: 1500px;
+    width: 1500px;
+}
+
+.cabeza {
+    border: 3px solid brown;
+    height: 250px;
+    width: 250px;
+    margin-left: 43%;
+    margin-right: 20px;    
+    position: relative;
+    margin-top: 150px;
+    border-radius: 50%;
+    background-color: gray
+}
+
+.ojoIzquierdo {
+    background-color: rgb(18, 4, 30);
+    border: 3px solid brown;
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 60%;
+}
+
+.ojoDerecho {
+    background-color: rgb(18, 4, 30);
+    border: 3px solid brown;
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 50%;
+    right: 60%;
+}
+
+.boca {
+    border: 10px solid brown;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+}
+
+.cuerpoResto {
+    position: relative;
+}
+
+
+.cuerpo{
+    border: 10px solid rgb(16, 15, 15);
+    height: 600px;
+    width: 400px;
+    margin-left: 560px;
+    
+}
+img {
+
+    position: absolute;
+    height: 130px;
+    width: 100px;
+    left: 600px;
+    top: 50px;
+}
+
+.brazoDerecho{
+    border: 5px solid brown;
+    background-color: gray;
+    height: 70px;
+    width: 350px;
+    right: 170px;
+    position: absolute;
+}
+
+.brazoIzquierdo {
+    border: 5px solid brown;
+    height: 70px;
+    width: 350px;
+    left: 205px;
+    position: absolute;
+    background-color: gray;
+}
+.piernaDerecha {
+    border: 5px solid rgb(20, 19, 19);
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    right: 520px;
+    position: absolute;
+    top: 605px;
+}
+
+.piernaIzquierda {
+    border: 5px solid rgb(10, 10, 10);
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    left: 560px;
+    position: absolute;
+    top: 605px;
+}
+
+.piernaSinShortIzq {
+    border: 5px solid rgb(10, 10, 10);
+    background-color: gray;
+    height: 200px;
+    width: 100px;
+    left: 590px;
+    position: absolute;
+    top: 810px;
+}
+
+.piernaSinShort {
+    border: 5px solid rgb(10, 10, 10);
+    background-color: gray;
+    height: 200px;
+    width: 100px;
+    left: 845px;
+    position: absolute;
+    top: 810px;
+}
+
+
+.antena {
+    position: relative;
+    top: 20px;
+}
+
+.antenaDerecha{
+    border:20px solid red;
+    background-color: red;
+    height: 100px;
+    width: 0;
+    margin-left: 760px;
+    position: absolute;
+    margin-top: -100px;
+}   
+
+.antenaIzquierda {
+    border: 50px solid red;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 730px;
+    position: absolute;
+    margin-top: -150px;
+
+}
+
+.franja {
+    border: 20px solid red;
+    background-color: red;
+    position: absolute;
+    height: 560px;
+    width: 50px;
+    transform: skew(-20deg);
+    right: 45%;
+}
+
+
